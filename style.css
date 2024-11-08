@@ -47,3 +47,117 @@ h2 {
 input[type="radio"], input[type="checkbox"] {
     accent-color: #CCD595;
 }
+
+input[type="text"], input[type="password"], input[type="date"], input[type="email"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #CCD595;
+    /* outline tira a seleção azul em volta da caixa quando clicado na caixa de texto. (para acessibilidade é inportante ter) */
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+/* Para estilizar pseudo elementos se utiliz dois pontos por exemplo */
+input::placeholder {
+    color: #CBBBA7;
+}
+
+select {
+    cursor: pointer;
+    background-color: #CCD595;
+    color: #331F19;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 5rem;
+    border-radius: 5px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #CCD595;
+    color: #331F19;
+    padding: 1rem;
+}
+
+td {
+    color: #331F19;
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: #331F19;
+    color: #F4F0EA;
+}
+
+details {
+    background-color: #CCD595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    color: #331F19;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 2rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid #CCD595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: #331F19;
+    padding: 0 0.5rem;
+}
+
+textarea {
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #CCD595;
+    background-color: transparent;
+}
+
+button {
+    background-color: #CCD595;
+    border: none;
+    padding: 0.8rem;
+    color: #331F19;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #331F19;
+    padding: 2rem;
+    text-align: center;
+}
+
+.paragrafo-footer {
+    color: #F4F0EA;
+}
+
+footer a {
+    text-decoration: none;
+    color: #CCD595;
+}
